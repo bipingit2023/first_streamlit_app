@@ -33,7 +33,7 @@ streamlit.dataframe(fruits_to_show)
 # fruit_choice = streamlit.text_input('What fruit would you like information about?','Kiwi')
 #streamlit.write('The user entered ', fruit_choice)
 
- try:
+# try:
 #  fruit_choice = streamlit.text_input('What fruit would you like information about?')
  # if not fruit_choice:
  #    streamlit.error("Please select a fruit to get information.")
@@ -50,8 +50,8 @@ streamlit.dataframe(fruits_to_show)
       
      back_from_function = get_fruityvice_data(fruit_choice)
      back_from_function
-except URLError as e:
-  streamlit.error() 
+#except URLError as e:
+  #streamlit.error() 
   
 # don't run anything past here while we troubleshoot
 streamlit.stop()
