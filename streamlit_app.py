@@ -46,7 +46,7 @@ def get_fruityvice_data(this_fruit_choice):
          fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
          # printing the normalized json as DF on screen
          # streamlit.dataframe(fruityvice_normalized)
-return fruityvice_normalized
+         return fruityvice_normalized
       
 back_from_function = get_fruityvice_data(fruit_choice)
 back_from_function
