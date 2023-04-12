@@ -49,7 +49,7 @@ def get_fruityvice_data(this_fruit_choice):
          return fruityvice_normalized
       
 back_from_function = get_fruityvice_data
-back_from_function
+streamlit.dataframe(back_from_function)
 
 #except URLError as e:
   #streamlit.error() 
